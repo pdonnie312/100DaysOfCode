@@ -4,14 +4,10 @@ bill = input("What was the total bill? $")
 percentage = input("What percentage tip would you like to give? 10, 12, or 15? ")
 people = input("How many people to split the bill? ")
 
-
 percentage = float(percentage)/100
 
 bill = int(bill)
 people = int(people)
-print(type(percentage))
-print(type(bill))
-print(type(people))
 amount =  (bill + ( bill * percentage ) ) / people
 
 amount = round(amount, 2)
